@@ -1,0 +1,14 @@
+applications:
+- services:
+  - MongoLab-bl
+  - TradeOffAnalyticsIBM
+  - question_and_answer
+  - text_to_speech
+  disk_quota: 1024M
+  host: csmv2
+  name: CognitiveServiceManagementV2
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+  
+
